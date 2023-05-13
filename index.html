@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Kő Papír Olló</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <h1>Kő Papír Olló</h1>
+    <div class="scoreboard">
+        <p>Játékos pontjai: <span id="player-score">0</span></p>
+        <p>Szmitó pontjai: <span id="computer-score">0</span></p>
+        <p>Szmitó választása:  <b><span id="computer-choice">-</span></p></b>
+        <b><span id="win-or-lose">-</span></p></b>
+    </div>
+    <div class="options">
+        <img src="pics/r.png" alt="Rock" id="kő" onclick="Start(this)">
+        <img src="pics/p.png" alt="Paper" id="papír" onclick="Start(this)">
+        <img src="pics/s.png" alt="Scissors" id="olló" onclick="Start(this)">
+    </div>
+    <div class="result">
+        <p id="round-result"></p>
+        <p id="game-result"></p>
+    </div>
+    <button class="restart-button" onclick="RestartGame()">Újrakezdés</button>
+    <script src="script.js"></script>
+</body>

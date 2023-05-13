@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #293462;
+  color: white;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+.scoreboard {
+  margin-top: 20px;
+}
+
+.scoreboard p {
+  margin-bottom: 10px;
+}
+
+.options {
+  margin-top: 50px;
+}
+
+.options img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 50px;
+}
+
+.result p {
+  margin-bottom: 10px;
+}
+
+.restart-button {
+  margin-top: 20px;
+}
