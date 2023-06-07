@@ -12,14 +12,14 @@ function Start(choice) {
       playersChoice == "olló" && computersChoice == "kő") {
         document.getElementById("computer-score").innerHTML = parseInt(document.getElementById("computer-score").innerHTML)+1;
         document.getElementById("win-or-lose").style.color = "#D61C4E";
-        document.getElementById("win-or-lose").innerHTML = "Számitógép nyer!";
+        document.getElementById("win-or-lose").innerHTML = "A számitógép nyert!";
       }
   else if(computersChoice == "kő" && playersChoice == "papír" ||
             computersChoice == "papír" && playersChoice == "olló" ||
             computersChoice == "olló" && playersChoice == "kő") {
               document.getElementById("player-score").innerHTML = parseInt(document.getElementById("player-score").innerHTML)+1;
               document.getElementById("win-or-lose").style.color = "#1CD6CE";
-              document.getElementById("win-or-lose").innerHTML = "Játékos nyer!"
+              document.getElementById("win-or-lose").innerHTML = "A játékos nyert!"
             }
   else {
     document.getElementById("win-or-lose").style.color = "#FEDB39";
