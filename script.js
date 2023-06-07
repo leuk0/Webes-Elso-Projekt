@@ -12,7 +12,7 @@ function Start(choice) {
       playersChoice == "olló" && computersChoice == "kő") {
         document.getElementById("computer-score").innerHTML = parseInt(document.getElementById("computer-score").innerHTML)+1;
         document.getElementById("win-or-lose").style.color = "#D61C4E";
-        document.getElementById("win-or-lose").innerHTML = "Szmitó nyer!";
+        document.getElementById("win-or-lose").innerHTML = "Számitógép nyer!";
       }
   else if(computersChoice == "kő" && playersChoice == "papír" ||
             computersChoice == "papír" && playersChoice == "olló" ||
